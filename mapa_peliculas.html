@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_56f2d06717886bcba760af6205b80ba8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_56f2d06717886bcba760af6205b80ba8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_56f2d06717886bcba760af6205b80ba8 = L.map(
+                "map_56f2d06717886bcba760af6205b80ba8",
+                {
+                    center: [-12.4931, -70.5533],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e4135af922454f6cbf1bec5445c21fa0 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_e4135af922454f6cbf1bec5445c21fa0.addTo(map_56f2d06717886bcba760af6205b80ba8);
+        
+    
+            var marker_30564b55a8beb75ea7ad0910f1a8be09 = L.marker(
+                [33.98035576680051, -118.04414079953531],
+                {
+}
+            ).addTo(map_56f2d06717886bcba760af6205b80ba8);
+        
+    
+            var icon_e7817128df9704268f66e5ee7a544db7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_114fd0516f914f4c5636d864f1e4d193 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4e2861b33afa5d0ab06ebd3b867cc257 = $(`<div id="html_4e2861b33afa5d0ab06ebd3b867cc257" style="width: 100.0%; height: 100.0%;"><b>Volver al futuro</b><br>Director: Robert Zemeckis<br>Año de estreno: 1985</div>`)[0];
+                popup_114fd0516f914f4c5636d864f1e4d193.setContent(html_4e2861b33afa5d0ab06ebd3b867cc257);
+            
+        
+
+        marker_30564b55a8beb75ea7ad0910f1a8be09.bindPopup(popup_114fd0516f914f4c5636d864f1e4d193)
+        ;
+
+        
+    
+    
+                marker_30564b55a8beb75ea7ad0910f1a8be09.setIcon(icon_e7817128df9704268f66e5ee7a544db7);
+            
+    
+            var marker_50ae9f7005fcc111ca7876f301d68020 = L.marker(
+                [37.83284641753448, -122.28362672775125],
+                {
+}
+            ).addTo(map_56f2d06717886bcba760af6205b80ba8);
+        
+    
+            var icon_921b919da4c6711995e7b72c476e6257 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_28edcd4a9d6793d82163f3036afb10a7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3a7d3ecae0f6f691ed5ec447fbe1312e = $(`<div id="html_3a7d3ecae0f6f691ed5ec447fbe1312e" style="width: 100.0%; height: 100.0%;"><b>Ratatouille</b><br>Director: Brad Bird y Jan Pinkava<br>Año de estreno: 2007</div>`)[0];
+                popup_28edcd4a9d6793d82163f3036afb10a7.setContent(html_3a7d3ecae0f6f691ed5ec447fbe1312e);
+            
+        
+
+        marker_50ae9f7005fcc111ca7876f301d68020.bindPopup(popup_28edcd4a9d6793d82163f3036afb10a7)
+        ;
+
+        
+    
+    
+                marker_50ae9f7005fcc111ca7876f301d68020.setIcon(icon_921b919da4c6711995e7b72c476e6257);
+            
+    
+            var marker_669a1a6662785e15ee6da05c86339db9 = L.marker(
+                [-22.90471521581791, -43.190814848672055],
+                {
+}
+            ).addTo(map_56f2d06717886bcba760af6205b80ba8);
+        
+    
+            var icon_ed2463515446f0ecea99214f7bb78c9f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dd522fea28a6c745b4100a1281fc8419 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_43cfdf258d6419e8b5276170e875a4a9 = $(`<div id="html_43cfdf258d6419e8b5276170e875a4a9" style="width: 100.0%; height: 100.0%;"><b>Estación Central de Brasil</b><br>Director: Walter Salles<br>Año de estreno: 1998</div>`)[0];
+                popup_dd522fea28a6c745b4100a1281fc8419.setContent(html_43cfdf258d6419e8b5276170e875a4a9);
+            
+        
+
+        marker_669a1a6662785e15ee6da05c86339db9.bindPopup(popup_dd522fea28a6c745b4100a1281fc8419)
+        ;
+
+        
+    
+    
+                marker_669a1a6662785e15ee6da05c86339db9.setIcon(icon_ed2463515446f0ecea99214f7bb78c9f);
+            
+    
+            var marker_6153f9b05a6b416e06708992389c9b33 = L.marker(
+                [35.70485974306828, 139.52984559772443],
+                {
+}
+            ).addTo(map_56f2d06717886bcba760af6205b80ba8);
+        
+    
+            var icon_dd4911e17e603d22b4b1ab77e6b58b79 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e9f6e1c867647f0857a13bb3c612dc4e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_312cd5dec0ad4ea55fa793abe56f1dde = $(`<div id="html_312cd5dec0ad4ea55fa793abe56f1dde" style="width: 100.0%; height: 100.0%;"><b>El viento se levanta</b><br>Director: Hayao Miyazaki<br>Año de estreno: 2013</div>`)[0];
+                popup_e9f6e1c867647f0857a13bb3c612dc4e.setContent(html_312cd5dec0ad4ea55fa793abe56f1dde);
+            
+        
+
+        marker_6153f9b05a6b416e06708992389c9b33.bindPopup(popup_e9f6e1c867647f0857a13bb3c612dc4e)
+        ;
+
+        
+    
+    
+                marker_6153f9b05a6b416e06708992389c9b33.setIcon(icon_dd4911e17e603d22b4b1ab77e6b58b79);
+            
+    
+            var marker_6f574fc5a22f2405c3ac014734abaf47 = L.marker(
+                [-34.58888670476658, -58.448101136913465],
+                {
+}
+            ).addTo(map_56f2d06717886bcba760af6205b80ba8);
+        
+    
+            var icon_729ef21aebe1040ce1e0cf6e2a660712 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "user",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a90af77c9ce47abef6ecbfc4f807bcb1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b8575ab034c15529ede138813c4f2277 = $(`<div id="html_b8575ab034c15529ede138813c4f2277" style="width: 100.0%; height: 100.0%;"><b>Metegol</b><br>Director: Juan José Campanella<br>Año de estreno: 2013</div>`)[0];
+                popup_a90af77c9ce47abef6ecbfc4f807bcb1.setContent(html_b8575ab034c15529ede138813c4f2277);
+            
+        
+
+        marker_6f574fc5a22f2405c3ac014734abaf47.bindPopup(popup_a90af77c9ce47abef6ecbfc4f807bcb1)
+        ;
+
+        
+    
+    
+                marker_6f574fc5a22f2405c3ac014734abaf47.setIcon(icon_729ef21aebe1040ce1e0cf6e2a660712);
+            
+    
+            tile_layer_e4135af922454f6cbf1bec5445c21fa0.addTo(map_56f2d06717886bcba760af6205b80ba8);
+        
+    
+                marker_30564b55a8beb75ea7ad0910f1a8be09.setIcon(icon_e7817128df9704268f66e5ee7a544db7);
+            
+    
+                marker_50ae9f7005fcc111ca7876f301d68020.setIcon(icon_921b919da4c6711995e7b72c476e6257);
+            
+    
+                marker_669a1a6662785e15ee6da05c86339db9.setIcon(icon_ed2463515446f0ecea99214f7bb78c9f);
+            
+    
+                marker_6153f9b05a6b416e06708992389c9b33.setIcon(icon_dd4911e17e603d22b4b1ab77e6b58b79);
+            
+    
+                marker_6f574fc5a22f2405c3ac014734abaf47.setIcon(icon_729ef21aebe1040ce1e0cf6e2a660712);
+            
+</script>
+</html>
